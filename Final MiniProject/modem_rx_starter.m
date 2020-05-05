@@ -14,6 +14,10 @@ y_t = y_r(start_idx+length(x_sync):end); % y_t is the signal which starts at the
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  Put your decoder code here
+new_sig = y_t
+% What we need to do:
+% Import signal
+% 
 %% 
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
