@@ -80,10 +80,10 @@ plot(t, filter_y)
 xlabel('Time (seconds)');
 ylabel('Filtered Y_c');
 %%
-t_vec = [0:length(vec_y)-1];
+
 vec_y = filter_y(50:100:(123*8*100),:)
 vec_y_bits = (filter_y(50:100:(123*8*100),:)>=0)
-
+t_vec = [0:length(vec_y)-1];
 mystery = BitsToString(double(vec_y_bits))
 
 subplot(2,1,1)
