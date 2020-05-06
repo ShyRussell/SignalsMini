@@ -36,9 +36,9 @@ xlabel('Time (seconds)');
 ylabel('Filtered Y_c');
 
 %%
-t_vec = [0:length(vec_y)-1];
 vec_y = filter_y(50:100:4000,:);
 vec_y_bits = (filter_y(50:100:4000,:)>=0);
+t_vec = [0:length(vec_y)-1];
 subplot(2,1,1)
 stem(t_vec, vec_y)
 xlabel('Time (seconds)');
